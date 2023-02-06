@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://images.unsplash.com/photo-1534030665069-90e016e995e5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY3NTI5MTU3Mw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+
+}
+
+.caixa-maior {
+    background-color: black; /* Cor de fundo */
+    width: 95%; /* Largura  */
+    max-width: 420px;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 25px;
+
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc(100% - 100px);
+
+}
+
+button {
+    border: none;  
+    outline: none;
+    padding: 14px;
+    font-size: 15px; /* Fonte da Letra */
+    border-radius: 24px;  /* Borda da caixa*/
+    background-color: #7c7c7c2b; /* Cor da borda*/
+    color: aliceblue;
+    float: right;
+    cursor: pointer;
+}
+
+.caixa-media {
+    margin-top: 20px;
+
+}
+
+.caixa-menor {
+    display: flex;
+}
+
+h2 {
+    color: white;
+    margin-top: 10px;
+    font-size: 28px;
+
+}
+
+.tempo {
+    color: white;
+    margin-top: 30px;
+}
+
+.descrição {
+    color: white;
+    margin-top: 30px;
+    text-transform: capitalize;
+    
+}
+
+.umidade {
+    color: white;
+    margin-top: 30px;
+}
